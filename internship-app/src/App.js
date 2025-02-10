@@ -32,9 +32,9 @@ function App() {
       <MainDiscription />
       <div className="cards">
         <div className="single-cards">
-          <SingleCard cardData={data[0]} className="card" />
-          <SingleCard cardData={data[1]} className="card" />
-          <SingleCard cardData={data[2]} className="card" />
+          {data.map((card) => (
+            <SingleCard cardData={card} className="card" />
+          ))}
         </div>
         <GreenCard />
       </div>

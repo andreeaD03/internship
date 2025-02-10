@@ -12,12 +12,12 @@
 .package {
   font-weight: bold;
   width: 80%;
+  word-wrap: break-word;
 }
 
 .description-package {
   color: #666;
   margin: 8px 0;
-  word-wrap: break-word;
 }
 
 .price {
