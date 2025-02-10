@@ -1,41 +1,41 @@
 :root {
-    --color-black: black;
-  }
-  
-  .mainContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .login,
-  .energy {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-  }
-  
-  .energyIcon {
-    height: 20px;
-    width: 20px;
-  }
-  
-  .list {
-    list-style: none;
-    display: flex;
-    gap: 10px;
-  }
+  --color-black: black;
+}
 
-  .center{
-    margin-left: 50px;
-  }
-  
-  .loginButton {
-    padding: 10px 20px;
-    background-color: var(--color-black);
-    color: white;
-    border-radius: 20px;
-    border: none;
-  }
-  
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.login,
+.energy {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.energyIcon {
+  height: 20px;
+  width: 20px;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.center {
+  margin-left: 50px;
+}
+
+.loginButton {
+  padding: 10px 20px;
+  background-color: var(--color-black);
+  color: white;
+  border-radius: 20px;
+  border: none;
+}

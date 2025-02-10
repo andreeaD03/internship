@@ -6,8 +6,8 @@ const SingleCard = ({ cardData }) => {
     <div className="card-solo">
       <div className="package">
         <h2>{cardData.packageChoice}</h2>
+        <div className="description-package">{cardData.packageDescription}</div>
       </div>
-      <div className="description-package">{cardData.packageDescription}</div>
       <div className="price">{cardData.price}</div>
     </div>
   );
