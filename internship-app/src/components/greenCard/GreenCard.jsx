@@ -1,5 +1,7 @@
 import React from "react";
 import "./GreenCard.css";
+import { FaArrowAltCircleRight } from "react-icons/fa";
+import { FaArrowRightLong } from "react-icons/fa6";
 
 const GreenCard = () => {
   return (
@@ -21,8 +23,12 @@ const GreenCard = () => {
         </ul>
       </div>
       <div className="subscription">
-        <button>Get started</button>
-        <span>Learn more</span>
+        <button>
+          Get started
+          <FaArrowAltCircleRight />
+        </button>
+        <span>Learn a more</span>
+        <FaArrowRightLong className="blackArrow" />
       </div>
     </div>
   );
