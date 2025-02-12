@@ -3,7 +3,7 @@ import Navbar from "./components/navBar/NavBar";
 import MainDiscription from "./components/mainDiscription/MainDiscription";
 import GreenCard from "./components/greenCard/GreenCard";
 import SingleCard from "./components/singleCard/SingleCard";
-import GreenSlide from "./components/greenSlide/GreenSlide";
+import GreenSlide from "./components/footer/GreenSlide";
 
 function App() {
   const data = [
@@ -38,6 +38,8 @@ function App() {
           ))}
         </div>
         <GreenCard />
+      </div>
+      <div>
         <GreenSlide />
       </div>
     </div>
