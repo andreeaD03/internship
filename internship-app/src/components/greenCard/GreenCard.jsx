@@ -27,7 +27,7 @@ const GreenCard = () => {
           Get started
           <FaArrowAltCircleRight />
         </button>
-        <span>Learn more</span>
+        <span>Learn a more</span>
         <FaArrowRightLong className="blackArrow" />
       </div>
     </div>
