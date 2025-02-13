@@ -24,4 +24,5 @@
 
 .banner > h2 {
   font-weight: 400;
+  cursor: pointer;
 }

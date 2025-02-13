@@ -1,10 +1,15 @@
 import React from "react";
-import "./NavBar.css"
+import "./NavBar.css";
+import { FcChargeBattery } from "react-icons/fc";
+
 const Navbar = () => {
   return (
     <div className="mainContainer">
       <div className="energy">
-        <span>Energy X</span>
+        <span>
+          <FcChargeBattery />
+          Energy X
+        </span>
       </div>
       <div className="center">
         <ul className="list">
