@@ -9,7 +9,7 @@ const Banner = () => {
         <div className="banner">
           <h2>
             Switch to solar today!
-            <FaArrowRight />
+            <FaArrowRight className="whiteArrow" />
           </h2>
         </div>
       </div>

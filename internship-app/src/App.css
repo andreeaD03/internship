@@ -16,3 +16,10 @@
   flex-direction: column;
   gap: 30px;
 }
+
+.buttomBar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 50px;
+}

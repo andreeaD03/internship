@@ -9,11 +9,19 @@
 
 .banner {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   background-color: #22c55e;
   color: white;
   font-size: 1.5rem;
   font-weight: bold;
   padding: 15px 20px;
   width: 70%;
+}
+
+.whiteArrow {
+  margin-left: 130px;
+}
+
+.banner > h2 {
+  font-weight: 400;
 }
