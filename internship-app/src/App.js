@@ -3,7 +3,8 @@ import Navbar from "./components/navBar/NavBar";
 import MainDiscription from "./components/mainDiscription/MainDiscription";
 import GreenCard from "./components/greenCard/GreenCard";
 import SingleCard from "./components/singleCard/SingleCard";
-import GreenSlide from "./components/greenSlide/GreenSlide";
+import Banner from "./components/banner/Banner";
+import Footer from "./components/footer/Footer";
 
 function App() {
   const data = [
@@ -39,9 +40,9 @@ function App() {
         </div>
         <GreenCard />
       </div>
-      <div>
-        <GreenSlide />
-      </div>
+      <Banner />
+
+      <Footer />
     </div>
   );
 }

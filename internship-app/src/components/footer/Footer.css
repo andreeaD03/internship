@@ -1,0 +1,33 @@
+.footerList {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.lists {
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  padding-left: 0;
+  cursor: pointer;
+}
+
+.energy {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttomBar h2 {
+  font-weight: 400;
+}
+
+.lists :nth-child(4) :last-child {
+  font-weight: bold;
+  text-decoration: underline;
+}
